@@ -1,11 +1,14 @@
 import React from 'react'
 import NavBar from './NavBar'
+import "./Card.css"
+import Card from './Card'
 
 function Movies() {
     return (
         <div>
             <NavBar />
-            <h1>Movies</h1>
+            <h1 className='titleText' >Movies</h1>
+            <Card />
         </div>
     )
 }

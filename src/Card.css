@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.titleText {
+    color: #043C19;
+    padding: 0 2rem;
+}
+
+.containerContents {
+    /* border-style: solid; */
+    /* border-color: red; */
+    display: flex;
+    height: 250px;
+    width: 500px;
+    gap: 25px;
+    background-color: #94B49F;
+}
+
+.cardContainer {
+    padding: 20px 25px;
+}

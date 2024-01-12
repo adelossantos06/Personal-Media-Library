@@ -9,17 +9,17 @@ function NavBar() {
             <ul>
                 <li>
                     <NavLink to="/movies">
-                        <button>Movies</button>
+                        <button className='navButton'>Movies</button>
                     </NavLink>
                 </li>
                 <li>
-                    <button>TV Shows</button>
+                    <button className='navButton'>TV Shows</button>
                 </li>
                 <li>
-                    <button>Books</button>
+                    <button className='navButton'>Books</button>
                 </li>
                 <li>
-                    <button>Podcasts</button>
+                    <button className='navButton'>Podcasts</button>
                 </li>
 
             </ul>

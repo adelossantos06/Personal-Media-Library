@@ -1,0 +1,20 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Inception",
+            "image": "https://m.media-amazon.com/images/M/MV5BNDgzZjdkOTMtNDA2My00OWEyLWFkODAtMmY3NWU2ZThjODZmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+            "genre": "Sci-fi/Action",
+            "liked": "yes",
+            "rating": 5
+        },
+        {
+            "id": 2,
+            "title": "Forrest Gump",
+            "image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+            "genre": "Comedy/Romance",
+            "liked": "yes",
+            "rating": 3
+        }
+    ]
+}

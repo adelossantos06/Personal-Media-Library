@@ -25,7 +25,7 @@ body {
   gap: 1rem;
 }
 
-button {
+.navButton {
   background-color: #FCF8E8;
   color: #043C19;
   border-radius: 12px;

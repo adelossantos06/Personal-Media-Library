@@ -13,17 +13,29 @@ function NavBar() {
                     </NavLink>
                 </li>
                 <li>
-                    <button className='navButton'>TV Shows</button>
+                    <NavLink to="/tv">
+                        <button className='navButton'>TV Shows</button>
+                    </NavLink>
                 </li>
                 <li>
-                    <button className='navButton'>Books</button>
+                    <NavLink to="/books">
+                        <button className='navButton'>Books</button>
+                    </NavLink>
                 </li>
                 <li>
-                    <button className='navButton'>Podcasts</button>
+                    <NavLink to="/podcasts">
+                        <button className='navButton'>Podcasts</button>
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/addButton">
+                        <button className='addButton'>Add More</button>
+                    </NavLink>
                 </li>
 
             </ul>
-        </nav>
+
+        </nav >
     )
 }
 

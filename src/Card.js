@@ -1,6 +1,16 @@
 import React from 'react'
 
-function Card({ image, title, genre, liked, rating }) {
+function Card({ image, title, genre, liked, rating, id }) {
+
+    function handleDelete() {
+        fetch(`http://localhost:4000/movies/${id}`, {
+            method: "DELETE",
+        })
+            .then((r) => r.json())
+            .then(() => {
+                console.log("success");
+            });
+    }
 
     return (
         <div>
@@ -9,11 +19,11 @@ function Card({ image, title, genre, liked, rating }) {
                 <div>
                     <h2>{title}</h2>
                     <p>{genre}</p>
-                    <p>Reccomend: {liked}</p>
-                    <p>rating: {rating}</p>
+                    <p>Recommend: {liked}</p>
+                    <p>Rating: {rating}</p>
                 </div>
                 <div>
-                    <button className='deleteButton' >Delete</button>
+                    <button onClick={handleDelete} className='deleteButton'>Delete</button>
                 </div>
             </div>
 

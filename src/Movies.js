@@ -12,8 +12,9 @@ function Movies() {
             .then(data => setMovies(data))
     }, [])
 
+
     const moviesList = movies.map(movie => {
-        return <Card key={movie.id} image={movie.image} title={movie.title} genre={movie.genre} liked={movie.liked} rating={movie.rating} />
+        return <Card key={movie.id} image={movie.image} title={movie.title} genre={movie.genre} liked={movie.liked} rating={movie.rating} id={movie.id} />
     })
 
     return (

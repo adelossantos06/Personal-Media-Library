@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Movies from './Movies';
+import TV from './TV';
+import Books from './Books';
+import Podcasts from './Podcasts';
 
 const router = createBrowserRouter([
   {
@@ -15,6 +18,22 @@ const router = createBrowserRouter([
     path: "/movies",
     element: <Movies />
   },
+  {
+    path: "/tv",
+    element: <TV />
+  },
+  {
+    path: "/books",
+    element: <Books />
+  },
+  {
+    path: "/podcasts",
+    element: <Podcasts />
+  },
+  // {
+  //   path: "/addForm",
+  //   element: <AddForm />
+  // }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

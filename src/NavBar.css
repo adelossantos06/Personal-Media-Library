@@ -33,3 +33,12 @@ body {
   padding: 5px 24px;
   font-weight: bold;
 }
+
+.addButton {
+  background-color: #8B0000;
+  color: #FCF8E8;
+  border-radius: 12px;
+  border: none;
+  padding: 5px 24px;
+  font-weight: bold;
+}

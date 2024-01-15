@@ -42,3 +42,8 @@ body {
   padding: 5px 24px;
   font-weight: bold;
 }
+
+.homeLink {
+  text-decoration: none;
+  color: #043C19;
+}

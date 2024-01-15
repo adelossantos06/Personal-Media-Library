@@ -28,7 +28,7 @@ function NavBar() {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/addButton">
+                    <NavLink to="/addForm">
                         <button className='addButton'>Add More</button>
                     </NavLink>
                 </li>

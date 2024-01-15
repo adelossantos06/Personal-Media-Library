@@ -8,6 +8,7 @@ import Movies from './Movies';
 import TV from './TV';
 import Books from './Books';
 import Podcasts from './Podcasts';
+import AddForm from './AddForm';
 
 const router = createBrowserRouter([
   {
@@ -30,10 +31,10 @@ const router = createBrowserRouter([
     path: "/podcasts",
     element: <Podcasts />
   },
-  // {
-  //   path: "/addForm",
-  //   element: <AddForm />
-  // }
+  {
+    path: "/addForm",
+    element: <AddForm />
+  }
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

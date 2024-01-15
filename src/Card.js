@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({ image, title, genre, liked, rating, id }) {
+function Card({ image, title, genre, liked, review, id }) {
 
     function handleDelete() {
         fetch(`http://localhost:4000/movies/${id}`, {
@@ -20,7 +20,7 @@ function Card({ image, title, genre, liked, rating, id }) {
                     <h2>{title}</h2>
                     <p>{genre}</p>
                     <p>Recommend: {liked}</p>
-                    <p>Rating: {rating}</p>
+                    <p>Review: {review}</p>
                 </div>
                 <div>
                     <button onClick={handleDelete} className='deleteButton'>Delete</button>

@@ -7,7 +7,6 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Movies from './Movies';
 import TV from './TV';
 import Books from './Books';
-import Podcasts from './Podcasts';
 import AddForm from './AddForm';
 
 const router = createBrowserRouter([

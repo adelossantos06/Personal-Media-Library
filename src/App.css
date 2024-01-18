@@ -1,0 +1,26 @@
+.quote {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 1.4;
+    color: #043C19;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 150px;
+}
+
+
+
+.cite {
+    line-height: 3;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #043C19;
+    margin-top: 10px;
+}

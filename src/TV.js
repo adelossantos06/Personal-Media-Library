@@ -26,7 +26,7 @@ function TV() {
     return (
         <div>
             <NavBar />
-            <h1 className='titleText' >Movies</h1>
+            <h1 className='titleText' >TV Shows</h1>
             <div className='cardContainer' >{tvShowList}</div>
         </div>
     )

@@ -26,7 +26,7 @@ function Books() {
     return (
         <div>
             <NavBar />
-            <h1 className='titleText' >Movies</h1>
+            <h1 className='titleText' >Books</h1>
             <div className='cardContainer' >{bookList}</div>
         </div>
     )

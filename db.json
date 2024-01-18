@@ -1,3 +1,13 @@
 {
-  "media": []
+  "media": [
+    {
+      "id": "96d2",
+      "title": "A Knight's Tale",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/AKnightsTale.jpg",
+      "genre": "Action/ Adventure",
+      "liked": "Yes",
+      "review": "A hugely entertaining medieval romp set to modern rock",
+      "category": "Movies"
+    }
+  ]
 }

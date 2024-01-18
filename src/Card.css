@@ -21,6 +21,18 @@ img {
     height: 250px;
 }
 
+p span {
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.thumbsUp {
+    font-size: 25px;
+}
+
 
 .cardContainer {
     /* border-style: solid;

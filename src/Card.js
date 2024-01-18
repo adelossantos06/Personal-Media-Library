@@ -12,15 +12,17 @@ function Card({ image, title, genre, liked, review, id, onDelete }) {
             });
     }
 
+    const isLiked = { liked } ? <p>Liked: <span className="thumbsUp">👍</span></p> : <p>Liked: 👎</p>
+
     return (
         <div>
             <div className='containerContents'>
                 <img src={image} ></img>
                 <div>
                     <h2>{title}</h2>
-                    <p>{genre}</p>
-                    <p>Recommend: {liked}</p>
-                    <p>Review: {review}</p>
+                    <p><span>Genre:</span> {genre}</p>
+                    <h4>{isLiked}</h4>
+                    <p><span>Review:</span> {review}</p>
                 </div>
                 <div>
                     <button onClick={handleDelete} className='deleteButton'>Delete</button>

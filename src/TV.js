@@ -16,6 +16,12 @@ function TV() {
         setTv(updatedArray)
     }
 
+    function handleUpdatedCard(updatedCard) {
+        const updatedCards = tv.map(card => card.id === updatedCard.id ? updatedCard : card)
+
+        setTv(updatedCards)
+    }
+
     let tvListing = tv.filter(shows => shows.category === "TV Shows")
 
     const tvShowList = tvListing.map(shows => {

@@ -46,10 +46,20 @@ h4 {
 
 }
 
+.editButton {
+    background-color: #FCF8E8;
+    margin-top: 185px;
+    color: #043C19;
+    margin-right: 10px;
+    border-radius: 12px;
+    border: none;
+    padding: 5px 31px;
+}
+
 .deleteButton {
     background-color: #FCF8E8;
     color: #043C19;
-    margin-top: 205px;
+    margin-top: 5px;
     margin-right: 10px;
     border-radius: 12px;
     border: none;

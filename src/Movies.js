@@ -17,10 +17,16 @@ function Movies() {
         setMovies(updatedArray)
     }
 
+    function handleUpdatedCard(updatedCard) {
+        const updatedCards = movies.map(card => card.id === updatedCard.id ? updatedCard : card)
+
+        setMovies(updatedCards)
+    }
+
     let movieListing = movies.filter(movie => movie.category === "Movies")
 
     const moviesList = movieListing.map(movie => {
-        return <Card key={movie.id} image={movie.image} title={movie.title} genre={movie.genre} liked={movie.liked} review={movie.review} id={movie.id} onDelete={handleDelete} />
+        return <Card key={movie.id} image={movie.image} title={movie.title} genre={movie.genre} liked={movie.liked} review={movie.review} id={movie.id} onDelete={handleDelete} category={movie.category} onEdit={handleUpdatedCard} />
     })
 
 

@@ -3,7 +3,7 @@ import React from 'react'
 function Card({ image, title, genre, liked, review, id }) {
 
     function handleDelete() {
-        fetch(`http://localhost:4000/movies/${id}`, {
+        fetch(`http://localhost:4000/media/${id}`, {
             method: "DELETE",
         })
             .then((r) => r.json())

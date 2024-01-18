@@ -1,20 +1,22 @@
 {
-    "movies": [
-        {
-            "id": 1,
-            "title": "Inception",
-            "image": "https://m.media-amazon.com/images/M/MV5BNDgzZjdkOTMtNDA2My00OWEyLWFkODAtMmY3NWU2ZThjODZmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
-            "genre": "Sci-fi/Action",
-            "liked": "yes",
-            "review": "Great Movie from Christopher Nolan"
-        },
-        {
-            "id": 2,
-            "title": "A Knight's Tale",
-            "image": "https://images.moviesanywhere.com/8617741123ae504cb1f86678cbe9b8d8/d636f522-c369-4e43-928f-08c621949864.webp?h=375&resize=fit&w=250",
-            "genre": "Action/Adventure",
-            "liked": "yes",
-            "review": "Slightly edgy medieval tale with rock music."
-        }
-    ]
+  "media": [
+    {
+      "id": "1981",
+      "title": "Criminal Minds",
+      "image": "https://m.media-amazon.com/images/M/MV5BZWVjZWUyMzUtMGRiMS00MzhkLWI5NTQtYjBmZWVlZThjZjFkXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+      "genre": "Drama",
+      "liked": "Yes",
+      "review": "Criminal Minds is a psychological thriller that keeps your undivided attention.",
+      "category": "TV Shows"
+    },
+    {
+      "id": "c4c2",
+      "title": "A Knight's Tale",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/AKnightsTale.jpg",
+      "genre": "Action/ Adventure",
+      "liked": "Yes",
+      "review": "A hugely entertaining medieval romp set to modern rock",
+      "category": "Movies"
+    }
+  ]
 }

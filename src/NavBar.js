@@ -23,11 +23,6 @@ function NavBar() {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to="/podcasts">
-                        <button className='navButton'>Podcasts</button>
-                    </NavLink>
-                </li>
-                <li>
                     <NavLink to="/addForm">
                         <button className='addButton'>Add More</button>
                     </NavLink>

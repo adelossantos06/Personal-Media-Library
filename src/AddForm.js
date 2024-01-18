@@ -14,7 +14,7 @@ function AddForm() {
         e.preventDefault()
         const formData = ({ title, image, genre, liked, review, category })
 
-        fetch("http://localhost:4000/movies", {
+        fetch("http://localhost:4000/media", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card({ image, title, genre, liked, review, id }) {
+function Card({ image, title, genre, liked, review, id, onDelete }) {
 
     function handleDelete() {
         fetch(`http://localhost:4000/media/${id}`, {
@@ -8,7 +8,7 @@ function Card({ image, title, genre, liked, review, id }) {
         })
             .then((r) => r.json())
             .then(() => {
-                console.log("success");
+                onDelete(id);
             });
     }
 

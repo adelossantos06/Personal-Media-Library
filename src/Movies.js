@@ -5,7 +5,6 @@ import Card from './Card'
 
 function Movies() {
     const [movies, setMovies] = useState([])
-    // const [category, setCategory] = useState("")
 
     useEffect(() => {
         fetch("http://localhost:4000/media")
@@ -13,10 +12,15 @@ function Movies() {
             .then(data => setMovies(data))
     }, [])
 
+    function handleDelete(id) {
+        const updatedArray = movies.filter(movie => movie.id !== id)
+        setMovies(updatedArray)
+    }
+
     let movieListing = movies.filter(movie => movie.category === "Movies")
 
     const moviesList = movieListing.map(movie => {
-        return <Card key={movie.id} image={movie.image} title={movie.title} genre={movie.genre} liked={movie.liked} review={movie.review} id={movie.id} category={movie.category} />
+        return <Card key={movie.id} image={movie.image} title={movie.title} genre={movie.genre} liked={movie.liked} review={movie.review} id={movie.id} onDelete={handleDelete} />
     })
 
 

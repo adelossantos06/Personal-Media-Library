@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import NavBar from './NavBar'
 import "./AddForm.css"
 
 function AddForm() {
@@ -9,6 +8,7 @@ function AddForm() {
     const [liked, setLiked] = useState("")
     const [review, setReview] = useState("")
     const [category, setCategory] = useState("")
+
 
     function handleSubmit(e) {
         e.preventDefault()
@@ -21,8 +21,16 @@ function AddForm() {
             },
             body: JSON.stringify(formData),
         })
-            .then(r => r.json())
-            .then(addedMedia => { console.log(addedMedia) })
+        resetForm();
+    }
+
+    function resetForm() {
+        setTitle("");
+        setImage("");
+        setGenre("");
+        setLiked("");
+        setReview("");
+        setCategory("");
     }
 
     return (

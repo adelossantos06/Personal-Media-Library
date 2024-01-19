@@ -1,22 +1,112 @@
 {
   "media": [
     {
-      "id": "5f105",
-      "title": "knight tale",
+      "id": "c69c",
+      "title": "A Knight's Tale",
       "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/AKnightsTale.jpg",
-      "genre": "Action/ Adventure",
+      "genre": "Action",
       "liked": "Yes",
-      "review": "movie",
+      "review": "A hugely entertaining medieval romp set to modern rock.",
       "category": "Movies"
     },
     {
-      "id": "5f104",
-      "title": "knight",
-      "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/AKnightsTale.jpg",
-      "genre": "Action/ Adventure",
+      "id": "f833",
+      "title": "The Shop Around the Corner",
+      "image": "https://i.etsystatic.com/10582465/r/il/80c8a7/3108518728/il_1588xN.3108518728_crtz.jpg",
+      "genre": "Comedy/Romance",
       "liked": "Yes",
-      "review": "movie",
+      "review": "This is by far my favorite classic movie.",
       "category": "Movies"
+    },
+    {
+      "id": "fe95",
+      "title": "Little Women",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2QzYTQyYzItMzAwYi00YjZlLThjNTUtNzMyMDdkYzJiNWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "genre": "Romance/Drama",
+      "liked": "Yes",
+      "review": "The performances by the entire cast are beautiful.",
+      "category": "Movies"
+    },
+    {
+      "id": "d654",
+      "title": "Death on the Nile",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjI4ZTQ1OTYtNTI0Yi00M2EyLThiNjMtMzk1MmZlOWMyMDQwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+      "genre": "Mystery/Crime",
+      "liked": "No",
+      "review": "No storyline other than murder.",
+      "category": "Movies"
+    },
+    {
+      "id": "a67d",
+      "title": "The 15:17 to Paris",
+      "image": "https://i0.wp.com/teaser-trailer.com/wp-content/uploads/The-15-17-to-Paris-movie-poster.jpg?ssl=1",
+      "genre": "Thriller",
+      "liked": "No",
+      "review": "The movie was too slow and boring.",
+      "category": "Movies"
+    },
+    {
+      "id": "1b94",
+      "title": "Hearts Beat Loud",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjA2MTM2MjcxNV5BMl5BanBnXkFtZTgwMzI3ODgyNTM@._V1_.jpg",
+      "genre": "Musical/Comedy",
+      "liked": "No",
+      "review": "Music is ok but not memorable.",
+      "category": "Movies"
+    },
+    {
+      "id": "44e0",
+      "title": "Criminal Minds",
+      "image": "https://m.media-amazon.com/images/M/MV5BZWVjZWUyMzUtMGRiMS00MzhkLWI5NTQtYjBmZWVlZThjZjFkXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+      "genre": "Drama",
+      "liked": "Yes",
+      "review": "A psychological thriller that keeps your undivided attention.",
+      "category": "TV Shows"
+    },
+    {
+      "id": "dd7a",
+      "title": "The Marvelous Mrs. Maisel",
+      "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQwPPuXpewLvbkWqDA3zYtg5Z1c6O9lg3gvX3G1x6x8Hxfi4BIJ",
+      "genre": "Drama",
+      "liked": "Yes",
+      "review": "The scenes move fast, you won’t find yourself bored at any moment.",
+      "category": "TV Shows"
+    },
+    {
+      "id": "8d0a",
+      "title": "Gilmore Girls",
+      "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7894445_b_v13_ab.jpg",
+      "genre": "Drama",
+      "liked": "Yes",
+      "review": "Gilmore Girls is definitely one of those shows which can dangerously become addictive!",
+      "category": "TV Shows"
+    },
+    {
+      "id": "32a3",
+      "title": "Poker Face",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bb/PokerFaceTVPoster.png",
+      "genre": "Drama",
+      "liked": "Yes",
+      "review": "Every episode was solid and kept me hooked.",
+      "category": "TV Shows"
+    },
+    {
+      "id": "ad02",
+      "title": "Manifest",
+      "image": "https://m.media-amazon.com/images/M/MV5BZGIxNDUzMDktYTg1ZC00OGRiLTliNWUtZmY4NTE0MDU0YWU4XkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_.jpg",
+      "genre": "Drama",
+      "liked": "No",
+      "review": "The worst part is the constant plot holes.",
+      "category": "TV Shows"
+    },
+    {
+      "id": "7156",
+      "title": "The Bear",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/The_Bear_2022_FX.png",
+      "genre": "Drama",
+      "liked": "No",
+      "review": "Too much unnecessary yelling! I wanted to fire all the staff myself.",
+      "category": "TV Shows"
     }
   ]
 }

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Card from './Card'
-import { Outlet, useOutletContext } from 'react-router-dom'
+import { useOutletContext } from 'react-router-dom'
 
 function Books() {
     const { media, setMedia } = useOutletContext();

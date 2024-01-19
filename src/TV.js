@@ -1,16 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import Card from './Card'
-import { Outlet, useOutletContext } from 'react-router-dom'
+import { useOutletContext } from 'react-router-dom'
 
 function TV() {
-    // const [tv, setTv] = useState([])
-
-    // useEffect(() => {
-    //     fetch("http://localhost:4000/media")
-    //         .then(r => r.json())
-    //         .then(data => setTv(data))
-    // }, [])
-
     const { media, setMedia } = useOutletContext();
 
     function handleDelete(id) {
@@ -34,10 +26,7 @@ function TV() {
     return (
         <div>
             <h1 className='titleText' >TV Shows</h1>
-            <div className='cardContainer' >
-
-                {tvShowList}
-            </div>
+            <div className='cardContainer' >{tvShowList}</div>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Card.css"
 import Card from './Card'
-import { Outlet, useOutletContext } from 'react-router-dom'
+import { useOutletContext } from 'react-router-dom'
 
 function Movies() {
 
@@ -31,7 +31,6 @@ function Movies() {
         <div>
 
             <h1 className='titleText' >Movies</h1>
-            <Outlet context={moviesList} />
             <div className='cardContainer' >{moviesList}</div>
         </div>
     )

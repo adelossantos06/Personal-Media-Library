@@ -27,11 +27,8 @@ p span {
 
 
 .cardContainer {
-    /* border-style: solid;
-    border-color: red; */
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: flex-start; */
     align-items: center;
     gap: 30px;
     padding: 25px 50px 75px 100px;

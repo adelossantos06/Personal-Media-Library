@@ -3,12 +3,14 @@ import Movies from "./Movies"
 import TV from "./TV"
 import Books from "./Books"
 import AddForm from "./AddForm"
+import ErrorPage from "./ErrorPage"
 
 
 const routes = [
     {
         path: "/",
         element: <App />,
+        errorElement: <ErrorPage />,
         children: [
             {
                 path: "/movies",

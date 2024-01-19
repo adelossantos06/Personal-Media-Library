@@ -10,7 +10,7 @@ function App() {
     fetch("http://localhost:4000/media")
       .then(r => r.json())
       .then(data => setMedia(data))
-  },)
+  }, [media])
 
   return (
     <>

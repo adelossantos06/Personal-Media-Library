@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import "./AddForm.css"
+import { useOutletContext } from 'react-router-dom'
 
 function AddForm() {
+    const { setMedia } = useOutletContext();
     const [title, setTitle] = useState("")
     const [image, setImage] = useState("")
     const [genre, setGenre] = useState("")
@@ -14,23 +16,17 @@ function AddForm() {
         e.preventDefault()
         const formData = ({ title, image, genre, liked, review, category })
 
-        fetch("http://localhost:4000/media", {
+        const configObj = {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(formData),
-        })
-        resetForm();
-    }
+        }
 
-    function resetForm() {
-        setTitle("");
-        setImage("");
-        setGenre("");
-        setLiked("");
-        setReview("");
-        setCategory("");
+        fetch("http://localhost:4000/media", configObj)
+            .then(r => r.json())
+            .then(data => setMedia(data))
     }
 
     return (

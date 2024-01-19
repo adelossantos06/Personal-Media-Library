@@ -161,6 +161,15 @@
       "liked": "No",
       "review": "There was so much hype about this book, but I don't really get it.",
       "category": "Books"
+    },
+    {
+      "id": "1508",
+      "title": "A movie",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a6/AKnightsTale.jpg",
+      "genre": "Action/ Adventure",
+      "liked": "Yes",
+      "review": "A good movie",
+      "category": "Movies"
     }
   ]
 }

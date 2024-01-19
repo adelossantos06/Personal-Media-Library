@@ -107,6 +107,60 @@
       "liked": "No",
       "review": "Too much unnecessary yelling! I wanted to fire all the staff myself.",
       "category": "TV Shows"
+    },
+    {
+      "id": "437e",
+      "title": "11/22/63",
+      "image": "https://m.media-amazon.com/images/I/81R-ADdDatL._SY522_.jpg",
+      "genre": "Science Fiction",
+      "liked": "Yes",
+      "review": "The excitement and suspense in this book were astonishing.",
+      "category": "Books"
+    },
+    {
+      "id": "f716",
+      "title": "Assassin's Apprentice",
+      "image": "https://pictures.abebooks.com/isbn/9780553374452-us.jpg",
+      "genre": "Fantasy",
+      "liked": "Yes",
+      "review": "The best fantasy series I've ever read. ",
+      "category": "Books"
+    },
+    {
+      "id": "ffc6",
+      "title": "Small Great Things",
+      "image": "https://m.media-amazon.com/images/I/71BQ5ctKCmL._AC_UF1000,1000_QL80_.jpg",
+      "genre": "Realistic Fiction",
+      "liked": "Yes",
+      "review": "Jodi Picoult can entertain and teach me with her books.",
+      "category": "Books"
+    },
+    {
+      "id": "fd96",
+      "title": "The Blonde Identity",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1671297043i/63310912.jpg",
+      "genre": "Romance/ Mystery",
+      "liked": "No",
+      "review": "Less than mediocre.",
+      "category": "Books"
+    },
+    {
+      "id": "86a7",
+      "title": "Holly",
+      "image": "https://m.media-amazon.com/images/I/815oQ6G6HDL._AC_UF1000,1000_QL80_.jpg",
+      "genre": "Horror",
+      "liked": "No",
+      "review": "The story was interesting and engaging but the execution was mediocre at best.",
+      "category": "Books"
+    },
+    {
+      "id": "5154",
+      "title": "The Invisible Life of Addie LaRue",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1584633432i/50623864.jpg",
+      "genre": "Fantasy",
+      "liked": "No",
+      "review": "There was so much hype about this book, but I don't really get it.",
+      "category": "Books"
     }
   ]
 }

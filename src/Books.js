@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import NavBar from './NavBar'
 import Card from './Card'
 
 function Books() {
@@ -16,16 +15,22 @@ function Books() {
         setBooks(updatedArray)
     }
 
+    function handleUpdatedCard(updatedCard) {
+        const updatedCards = books.map(card => card.id === updatedCard.id ? updatedCard : card)
+
+        setBooks(updatedCards)
+    }
+
+
     let bookListing = books.filter(book => book.category === "Books")
 
     const bookList = bookListing.map(book => {
-        return <Card key={book.id} image={book.image} title={book.title} genre={book.genre} liked={book.liked} review={book.review} id={book.id} category={book.category} onDelete={handleDelete} />
+        return <Card key={book.id} image={book.image} title={book.title} genre={book.genre} liked={book.liked} review={book.review} id={book.id} category={book.category} onDelete={handleDelete} onEdit={handleUpdatedCard} />
     })
 
 
     return (
         <div>
-            <NavBar />
             <h1 className='titleText' >Books</h1>
             <div className='cardContainer' >{bookList}</div>
         </div>

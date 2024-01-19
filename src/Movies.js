@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import NavBar from './NavBar'
 import "./Card.css"
 import Card from './Card'
+import { Outlet, useOutletContext } from 'react-router-dom'
 
 function Movies() {
     const [movies, setMovies] = useState([])
@@ -32,8 +32,9 @@ function Movies() {
 
     return (
         <div>
-            <NavBar />
+
             <h1 className='titleText' >Movies</h1>
+            <Outlet context={moviesList} />
             <div className='cardContainer' >{moviesList}</div>
         </div>
     )

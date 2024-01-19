@@ -27,9 +27,7 @@ function AddForm() {
 
     return (
         <>
-            <div>
-                <NavBar />
-            </div>
+
             <div className="formDiv">
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="title">Title:</label>
@@ -57,7 +55,6 @@ function AddForm() {
                         <option>Movies</option>
                         <option>TV Shows</option>
                         <option>Books</option>
-                        <option>Podcasts</option>
                     </select>
                     <br />
 

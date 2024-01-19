@@ -25,14 +25,6 @@ p span {
     font-weight: bold;
 }
 
-h4 {
-    font-weight: bold;
-}
-
-.thumbsUp {
-    font-size: 25px;
-}
-
 
 .cardContainer {
     /* border-style: solid;
@@ -53,7 +45,7 @@ h4 {
     margin-right: 10px;
     border-radius: 12px;
     border: none;
-    padding: 5px 31px;
+    padding: 5px 25px;
 }
 
 .deleteButton {
@@ -63,5 +55,5 @@ h4 {
     margin-right: 10px;
     border-radius: 12px;
     border: none;
-    padding: 5px 24px;
+    padding: 5px 17px;
 }

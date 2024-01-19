@@ -57,6 +57,7 @@ function Card({ image, title, genre, liked, review, id, category, onDelete, onEd
                             setEditedCard({ ...editedCard, image: e.target.value })
                         }
                     />
+                    <label>Genre:</label>
                     <input
                         type="text"
                         value={editedCard.genre}

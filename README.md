@@ -2,8 +2,6 @@
 
 This application is designed as a personal catalog to log movies, tv shows and books that the user has watched or read to keep track of what the user has seen and how they would rate them. 
 
-The information displayed is a personal demonstration of the application. 
-
 # Description
 
 It is a single page application made with React. Every page contains cards with information that fits the category. Each information card contains the title, an image, the genre, whether the user liked it or not, and a review. The cards also contain two buttons one button that will edit the card and the second button that will delete the card. 

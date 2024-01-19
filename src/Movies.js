@@ -18,8 +18,6 @@ function Movies() {
         setMedia(updatedCards)
     }
 
-
-
     let movieListing = media.filter(movie => movie.category === "Movies")
 
     const moviesList = movieListing.map(movie => {

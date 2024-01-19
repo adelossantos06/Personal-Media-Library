@@ -1,11 +1,11 @@
 import React from 'react';
 import "./NavBar.css"
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function NavBar() {
     return (
         <nav className='nav'>
-            <Link className="homeLink" to="/"><h1>Personal Media Library</h1></Link>
+            <h1>Personal Media Library</h1>
             <ul>
                 <li>
                     <NavLink to="/movies">

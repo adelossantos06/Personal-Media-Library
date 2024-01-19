@@ -1,22 +1,27 @@
+import React, { useState, useEffect } from 'react';
 import NavBar from './NavBar';
 import "./App.css"
 import { Outlet } from 'react-router-dom';
 
 
 function App() {
+  const [media, setMedia] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:4000/media")
+      .then(r => r.json())
+      .then(data => setMedia(data))
+  }, [])
+
   return (
     <>
       <div className="App">
         <header>
           <NavBar />
         </header>
-        <Outlet />
+        <Outlet context={{ media: media, setMedia: setMedia }} />
 
       </div>
-
-      {/* <div>
-        <blockquote className="quote">"I agreed that what really matters is what you like, not what you are like... Books, records, films - these things matter. "<br /><span className='cite'>-High Fidelity, 2000</span></blockquote>
-      </div> */}
 
 
 

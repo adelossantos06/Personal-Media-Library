@@ -1,28 +1,23 @@
 import React, { useState, useEffect } from 'react'
 import Card from './Card'
+import { Outlet, useOutletContext } from 'react-router-dom'
 
 function Books() {
-    const [books, setBooks] = useState([])
-
-    useEffect(() => {
-        fetch("http://localhost:4000/media")
-            .then(r => r.json())
-            .then(data => setBooks(data))
-    }, [])
+    const { media, setMedia } = useOutletContext();
 
     function handleDelete(id) {
-        const updatedArray = books.filter(book => book.id !== id)
-        setBooks(updatedArray)
+        const updatedArray = media.filter(book => book.id !== id)
+        setMedia(updatedArray)
     }
 
     function handleUpdatedCard(updatedCard) {
-        const updatedCards = books.map(card => card.id === updatedCard.id ? updatedCard : card)
+        const updatedCards = media.map(card => card.id === updatedCard.id ? updatedCard : card)
 
-        setBooks(updatedCards)
+        setMedia(updatedCards)
     }
 
 
-    let bookListing = books.filter(book => book.category === "Books")
+    let bookListing = media.filter(book => book.category === "Books")
 
     const bookList = bookListing.map(book => {
         return <Card key={book.id} image={book.image} title={book.title} genre={book.genre} liked={book.liked} review={book.review} id={book.id} category={book.category} onDelete={handleDelete} onEdit={handleUpdatedCard} />

@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 
 function App() {
   const [media, setMedia] = useState([])
-  console.log(media)
+
   useEffect(() => {
     fetch("http://localhost:3000/media")
       .then(r => r.json())

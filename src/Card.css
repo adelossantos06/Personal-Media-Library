@@ -8,10 +8,7 @@
 }
 
 .containerContents {
-    /* border-style: solid;
-    border-color: blue; */
     display: flex;
-    /* height: 250px; */
     width: 500px;
     gap: 25px;
     background-color: #94B49F;

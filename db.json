@@ -80,15 +80,6 @@
       "liked": "No",
       "review": "Music is ok but not memorable.",
       "category": "Movies"
-    },
-    {
-      "id": "2818",
-      "title": "Little Women",
-      "image": "https://m.media-amazon.com/images/M/MV5BY2QzYTQyYzItMzAwYi00YjZlLThjNTUtNzMyMDdkYzJiNWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-      "genre": "Romance/Drama",
-      "liked": "Yes",
-      "review": "The performances by the entire cast are beautiful.",
-      "category": "Movies"
     }
   ]
 }

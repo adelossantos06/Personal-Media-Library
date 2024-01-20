@@ -5,12 +5,12 @@ import { Outlet } from 'react-router-dom';
 
 function App() {
   const [media, setMedia] = useState([])
-
+  console.log(media)
   useEffect(() => {
-    fetch("http://localhost:4000/media")
+    fetch("http://localhost:3000/media")
       .then(r => r.json())
       .then(data => setMedia(data))
-  }, [media])
+  }, [])
 
   return (
     <>

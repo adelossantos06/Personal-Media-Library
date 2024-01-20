@@ -3,7 +3,7 @@ import "./AddForm.css"
 import { useOutletContext } from 'react-router-dom'
 
 function AddForm() {
-    const { setMedia } = useOutletContext();
+    const { media, setMedia } = useOutletContext();
     const [title, setTitle] = useState("")
     const [image, setImage] = useState("")
     const [genre, setGenre] = useState("")
@@ -11,11 +11,15 @@ function AddForm() {
     const [review, setReview] = useState("")
     const [category, setCategory] = useState("")
 
+    function addMedia(newMedia) {
+        setMedia([...media, newMedia])
+    }
+
 
     function handleSubmit(e) {
         e.preventDefault()
         const formData = ({ title, image, genre, liked, review, category })
-
+        console.log(formData)
         const configObj = {
             method: "POST",
             headers: {
@@ -24,9 +28,19 @@ function AddForm() {
             body: JSON.stringify(formData),
         }
 
-        fetch("http://localhost:4000/media", configObj)
+        fetch("http://localhost:3000/media", configObj)
             .then(r => r.json())
-            .then(data => setMedia(data))
+            .then(mediaObj => addMedia(mediaObj))
+        refreshData(formData)
+    }
+
+    function refreshData() {
+        setTitle("")
+        setImage("")
+        setGenre("")
+        setLiked("")
+        setReview("")
+        setCategory("")
     }
 
     return (

@@ -5,7 +5,7 @@ function Card({ image, title, genre, liked, review, id, category, onDelete, onEd
     const [editedCard, setEditedCard] = useState({ id, title, image, genre, liked, review, category })
 
     function handleDelete() {
-        fetch(`http://localhost:4000/media/${id}`, {
+        fetch(`http://localhost:3000/media/${id}`, {
             method: "DELETE",
         })
             .then((r) => r.json())
@@ -21,7 +21,7 @@ function Card({ image, title, genre, liked, review, id, category, onDelete, onEd
     function handleEditSubmitForm(e) {
         e.preventDefault()
 
-        fetch(`http://localhost:4000/media/${id}`, {
+        fetch(`http://localhost:3000/media/${id}`, {
             method: "PUT",
             headers: {
                 'Content-Type': 'application/json',

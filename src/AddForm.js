@@ -19,7 +19,7 @@ function AddForm() {
     function handleSubmit(e) {
         e.preventDefault()
         const formData = ({ title, image, genre, liked, review, category })
-        console.log(formData)
+
         const configObj = {
             method: "POST",
             headers: {

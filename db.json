@@ -10,15 +10,6 @@
       "category": "Movies"
     },
     {
-      "id": "2",
-      "title": "The Shop Around the Corner",
-      "image": "https://i.etsystatic.com/10582465/r/il/80c8a7/3108518728/il_1588xN.3108518728_crtz.jpg",
-      "genre": "Comedy/Romance",
-      "liked": "Yes",
-      "review": "This is by far my favorite classic movie.",
-      "category": "Movies"
-    },
-    {
       "id": "3",
       "title": "Little Women",
       "image": "https://m.media-amazon.com/images/M/MV5BY2QzYTQyYzItMzAwYi00YjZlLThjNTUtNzMyMDdkYzJiNWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
@@ -64,15 +55,6 @@
       "category": "Books"
     },
     {
-      "id": "8",
-      "title": "Assassin's ",
-      "image": "https://pictures.abebooks.com/isbn/9780553374452-us.jpg",
-      "genre": "Fantasy",
-      "liked": "Yes",
-      "review": "The best fantasy series I've ever read. ",
-      "category": "Books"
-    },
-    {
       "id": "44ee",
       "title": "Hearts Beat Loud",
       "image": "https://m.media-amazon.com/images/M/MV5BMjA2MTM2MjcxNV5BMl5BanBnXkFtZTgwMzI3ODgyNTM@._V1_.jpg",
@@ -80,6 +62,24 @@
       "liked": "No",
       "review": "Music is ok but not memorable.",
       "category": "Movies"
+    },
+    {
+      "id": "8feb",
+      "title": "Small Great Things",
+      "image": "https://m.media-amazon.com/images/I/71BQ5ctKCmL._AC_UF1000,1000_QL80_.jpg",
+      "genre": "Realistic Fiction",
+      "liked": "Yes",
+      "review": "Jodi Picoult can entertain and teach me with her books.",
+      "category": "Books"
+    },
+    {
+      "id": "6b4b",
+      "title": "The Invisible Life of Addie LaRue",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1584633432i/50623864.jpg",
+      "genre": "Fantasy",
+      "liked": "No",
+      "review": "There was so much hype about this book, but I don't really get it.",
+      "category": "Books"
     }
   ]
 }

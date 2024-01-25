@@ -4,6 +4,7 @@ import TV from "./TV"
 import Books from "./Books"
 import AddForm from "./AddForm"
 import ErrorPage from "./ErrorPage"
+import FoodForm from "./FoodForm"
 
 
 const routes = [
@@ -27,6 +28,10 @@ const routes = [
             {
                 path: "/addForm",
                 element: <AddForm />
+            },
+            {
+                path: "/foodForm",
+                element: <FoodForm />
             }
         ]
     },

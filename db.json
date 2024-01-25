@@ -10,15 +10,6 @@
       "category": "Movies"
     },
     {
-      "id": "3",
-      "title": "Little Women",
-      "image": "https://m.media-amazon.com/images/M/MV5BY2QzYTQyYzItMzAwYi00YjZlLThjNTUtNzMyMDdkYzJiNWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-      "genre": "Romance/Drama",
-      "liked": "Yes",
-      "review": "The performances by the entire cast are beautiful.",
-      "category": "Movies"
-    },
-    {
       "id": "4",
       "title": "Criminal Minds",
       "image": "https://m.media-amazon.com/images/M/MV5BZWVjZWUyMzUtMGRiMS00MzhkLWI5NTQtYjBmZWVlZThjZjFkXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
@@ -55,15 +46,6 @@
       "category": "Books"
     },
     {
-      "id": "44ee",
-      "title": "Hearts Beat Loud",
-      "image": "https://m.media-amazon.com/images/M/MV5BMjA2MTM2MjcxNV5BMl5BanBnXkFtZTgwMzI3ODgyNTM@._V1_.jpg",
-      "genre": "Musical/Comedy",
-      "liked": "No",
-      "review": "Music is ok but not memorable.",
-      "category": "Movies"
-    },
-    {
       "id": "8feb",
       "title": "Small Great Things",
       "image": "https://m.media-amazon.com/images/I/71BQ5ctKCmL._AC_UF1000,1000_QL80_.jpg",
@@ -80,6 +62,33 @@
       "liked": "No",
       "review": "There was so much hype about this book, but I don't really get it.",
       "category": "Books"
+    },
+    {
+      "id": "d6c8",
+      "title": "Poker Face",
+      "image": "https://upload.wikimedia.org/wikipedia/en/b/bb/PokerFaceTVPoster.png",
+      "genre": "Drama",
+      "liked": "Yes",
+      "review": "Every episode was solid and kept me hooked!",
+      "category": "TV Shows"
+    },
+    {
+      "id": "38a2",
+      "title": "Little Women",
+      "image": "https://m.media-amazon.com/images/M/MV5BY2QzYTQyYzItMzAwYi00YjZlLThjNTUtNzMyMDdkYzJiNWM4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+      "genre": "Romance/Drama",
+      "liked": "Yes",
+      "review": "The performances by the entire cast are beautiful.",
+      "category": "Movies"
+    },
+    {
+      "id": "cb6c",
+      "title": "Hearts Beat Loud",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjA2MTM2MjcxNV5BMl5BanBnXkFtZTgwMzI3ODgyNTM@._V1_.jpg",
+      "genre": "Musical/Comedy",
+      "liked": "No",
+      "review": "Music is ok but not memorable.",
+      "category": "Movies"
     }
   ]
 }

@@ -29,7 +29,7 @@ function FoodForm() {
         else if (country === "Italy") {
             setOriginMessage("Delizioso!")
         }
-        else if (country === "Mexico") {
+        else if (country === "Mexico" || "Spain") {
             setOriginMessage("Delicioso!")
         }
         else if (country === "") {

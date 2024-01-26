@@ -5,6 +5,7 @@ import Books from "./Books"
 import AddForm from "./AddForm"
 import ErrorPage from "./ErrorPage"
 import FoodForm from "./FoodForm"
+import RandomWinnerForm from "./RandomWinnerForm"
 
 
 const routes = [
@@ -32,6 +33,10 @@ const routes = [
             {
                 path: "/foodForm",
                 element: <FoodForm />
+            },
+            {
+                path: "/randomWinnerForm",
+                element: <RandomWinnerForm />
             }
         ]
     },

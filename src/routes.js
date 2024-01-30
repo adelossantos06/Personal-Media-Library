@@ -6,6 +6,9 @@ import AddForm from "./AddForm"
 import ErrorPage from "./ErrorPage"
 import FoodForm from "./FoodForm"
 import RandomWinnerForm from "./RandomWinnerForm"
+import ItemsContainer from "./ItemsContainer"
+import AnimalContainer from "./AnimalContainer"
+import Challenge from "./Challenge"
 
 
 const routes = [
@@ -37,6 +40,18 @@ const routes = [
             {
                 path: "/randomWinnerForm",
                 element: <RandomWinnerForm />
+            },
+            {
+                path: "/itemsContainer",
+                element: <ItemsContainer />
+            },
+            {
+                path: "/animalContainer",
+                element: <AnimalContainer />
+            },
+            {
+                path: "/challenge",
+                element: <Challenge />
             }
         ]
     },
